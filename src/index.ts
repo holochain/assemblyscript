@@ -173,3 +173,5 @@ export { LIBRARY_PREFIX } from "./common";
 /** Submodule for dealing with the AST in transforms**/
 import * as AST from "./ast";
 export {AST};
+// export this in top level to not break existing code
+export {NodeKind} from "./ast";
